@@ -15,6 +15,11 @@ body {
   background: #23252a;
 }
 
+.failfoxLogin{
+  display: block;
+  margin: auto;
+}
+
 .box {
   position: relative;
   width: 380px;
