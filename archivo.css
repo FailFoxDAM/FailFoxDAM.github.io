@@ -36,9 +36,9 @@ body {
     0deg,
     transparent,
     transparent,
-    #45f3ff,
-    #45f3ff,
-    #45f3ff
+    #ffaa00,
+    #ff2727,
+    #fe8d02
   );
   z-index: 1;
   transform-origin: bottom right;
@@ -56,9 +56,9 @@ body {
     0deg,
     transparent,
     transparent,
-    #45f3ff,
-    #45f3ff,
-    #45f3ff
+    #ffaa00,
+    #ff2727,
+    #fe8d02
   );
   z-index: 1;
   transform-origin: bottom right;
@@ -77,9 +77,9 @@ body {
     0deg,
     transparent,
     transparent,
-    #ff2770,
-    #ff2770,
-    #ff2770
+    #ff2727,
+    #ffd500,
+    #ff2727
   );
   z-index: 1;
   transform-origin: bottom right;
@@ -98,9 +98,9 @@ body {
     0deg,
     transparent,
     transparent,
-    #ff2770,
-    #ff2770,
-    #ff2770
+    #ff2727,
+    #ffd500,
+    #ff2727
   );
   z-index: 1;
   transform-origin: bottom right;
