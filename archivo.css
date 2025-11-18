@@ -36,10 +36,10 @@ body {
     0deg,
     transparent,
     transparent,
-    #45f3ff,
-    #45f3ff,
-    #45f3ff
-  );
+    #fa8b0c,
+    #fa8b0c,
+    #fa8b0c
+   );
   z-index: 1;
   transform-origin: bottom right;
   animation: animate 6s linear infinite;
@@ -56,9 +56,9 @@ body {
     0deg,
     transparent,
     transparent,
-    #45f3ff,
-    #45f3ff,
-    #45f3ff
+    #ffe945,
+    #e3ff45,
+    #e3ff45
   );
   z-index: 1;
   transform-origin: bottom right;
@@ -77,9 +77,9 @@ body {
     0deg,
     transparent,
     transparent,
-    #ff2770,
-    #ff2770,
-    #ff2770
+    #ff2727,
+    #ff2727,
+    #ff2727
   );
   z-index: 1;
   transform-origin: bottom right;
@@ -98,9 +98,9 @@ body {
     0deg,
     transparent,
     transparent,
-    #ff2770,
-    #ff2770,
-    #ff2770
+    #ff2727,
+    #f49003d4,
+    #ffd727
   );
   z-index: 1;
   transform-origin: bottom right;
