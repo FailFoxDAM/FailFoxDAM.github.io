@@ -1,0 +1,5 @@
+functiongo() {
+    if{ 
+     document.forms[]
+    }
+}
