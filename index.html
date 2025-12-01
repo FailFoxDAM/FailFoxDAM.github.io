@@ -11,6 +11,7 @@
   <body>
     <div class="box">
       <span class="borderLine"></span>
+
       <form action="" method="post" name="form">
         <img
           src="./imagenes/failfox logo sin fondo.png"
@@ -18,33 +19,35 @@
           width="70"
           height="70"
         />
-        <h2>Login</h2>
+
+        <h2>Sign in</h2>
+
         <div class="inputBox">
           <input type="text" required />
           <span>Nombre</span>
           <i></i>
         </div>
+
         <div class="inputBox">
           <input type="password" required />
           <span>Contraseña</span>
-          <div class="buttonRow">
-            <input type="submit" id="submit" value="Entrar" />
-            <a href="register.html" class="registerBtn">Registrarse</a>
-          </div>
-          <i> </i>
+          <i></i>
         </div>
-        <!--
-         <div class="links">
-          <a href="#">¿Has olvidado tu contraseña?</a>
-          <a href="#">Registrarse</a>
-         </div>
-        -->
-        <p id="errorMsg" style="color:orange; display:none; font-weight:bold;"></p>
-        <input type="submit" id="submit" value="Entrar" />
+
+        <!-- Fila de botones ( Entrar + Registrarse ) -->
+        <div class="buttonRow">
+          <input type="submit" id="submit" value="Entrar" />
+          <a href="register.html" class="registerBtn">Registrarse</a>
+        </div>
+
+        <p
+          id="errorMsg"
+          style="color: orange; display: none; font-weight: bold"
+        ></p>
       </form>
     </div>
+
     <script type="text/javascript" src="script.js"></script>
     <script src="scriptLogin.js"></script>
-    <script src="" async defer></script>
   </body>
 </html>
