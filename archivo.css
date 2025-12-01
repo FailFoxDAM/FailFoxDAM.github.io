@@ -235,9 +235,47 @@ body {
   margin-top: 15px;
 }
 
+.buttonRow {
+  display: flex;
+  justify-content: center; /* Centra ambos botones */
+  gap: 15px; /* Separación entre ellos */
+  margin-top: 15px;
+}
+
+.buttonRow #submit {
+  padding: 10px 25px;
+  cursor: pointer;
+}
+
+.buttonRow {
+  display: flex;
+  justify-content: center; /* Centra los dos botones */
+  align-items: center;
+  gap: 15px; /* Espacio entre ellos */
+  margin-top: 20px;
+}
+
+/* Botón "Entrar" (submit) */
+.buttonRow #submit {
+  padding: 10px 25px;
+  border: none;
+  background: #fff;
+  color: #000;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.buttonRow #submit:hover {
+  background: #e0e0e0;
+}
+
+/* Botón "Registrarse" (enlace con estilo de botón) */
 .registerBtn {
   display: inline-block;
-  padding: 10px 5px;
+  padding: 10px 25px;
   background: transparent;
   border: 2px solid #fff;
   color: #fff;
@@ -245,6 +283,7 @@ body {
   font-size: 16px;
   text-decoration: none;
   font-weight: 600;
+  cursor: pointer;
   transition: 0.3s;
 }
 
