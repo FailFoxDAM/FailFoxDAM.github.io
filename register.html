@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-  <head>
+ <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <title></title>
@@ -9,8 +9,6 @@
     <link rel="stylesheet" href="archivo.css" />
   </head>
   <body>
-    
-    </div>
     <div class="box">
       <span class="borderLine"></span>
 
@@ -33,18 +31,19 @@
           <span>Contraseña</span>
           <i></i>
         </div>
-
-        <!-- Fila de botones ( Entrar + Registrarse ) -->
-        <div class="buttonRow">
-          <input type="submit" id="submit" value="Entrar" />
-          <a href="register.html" class="registerBtn">Registrarse</a>
+        <div class="inputBox">
+          <input type="password" required />
+          <span>Contraseña</span>
+          <i></i>
         </div>
+        <!--
+         <div class="links">
+          <a href="#">¿Has olvidado tu contraseña?</a>
+          <a href="#">Registrarse</a>
+         </div>
+        -->
 
-        <p id="errorMsg"></p>
-      </form>
-    </div>
-
-    <script type="text/javascript" src="script.js"></script>
-    <script src="scriptLogin.js"></script>
+        <input type="submit" id="submit" value="Entrar" />
+     
   </body>
 </html>
