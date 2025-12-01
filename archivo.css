@@ -291,3 +291,6 @@ body {
   background: #fff;
   color: #000;
 }
+#errorMsg{
+  font-size: x-small;
+}
