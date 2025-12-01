@@ -15,7 +15,9 @@ document.addEventListener("DOMContentLoaded", () => {
       // si quieres redirigir a otra pagina
       window.location.href = "actividad_10.html";
     } else {
-      alert("Por favor ingrese un nombre de usuario y contraseña correctos");
+     document.getElementById("errorMsg").textContent =
+        "Por favor ingrese un nombre de usuario y contraseña correctos";
+      document.getElementById("errorMsg").style.display = "block";
     }
   });
 });
