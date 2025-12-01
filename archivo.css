@@ -293,4 +293,7 @@ body {
 }
 #errorMsg{
   font-size: x-small;
+  color: orange;
+   display: none; 
+   font-weight: bold"
 }
